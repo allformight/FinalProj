@@ -112,7 +112,7 @@ def getMusic(url): #main function
     else:
         print("Not a youtube URL.")
 
-if __name__ == '__main__':
-    print("Please input a youtube URL:",end='')
-    url = input()
-    getMusic(url)
+# if __name__ == '__main__':
+#     print("Please input a youtube URL:",end='')
+#     url = input()
+#     getMusic(url)

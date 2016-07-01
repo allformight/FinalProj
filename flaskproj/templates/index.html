@@ -3,6 +3,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>{% block title %}Youtu收藏小幫手{% endblock title %}</title>
+
+
   </head>
   <body>
     {% block content %} {% endblock content %}
@@ -13,10 +15,11 @@
       <li> Hello World!! </li>
     </ul>
 
-    <form action = '/download'  method = 'post'>
+
+    <form action = '/loading'  method = 'post'>
     輸入下載歌單youtu網址
     <br><input type=text name=textField value="" > </br>
-    <button type="submit" >下載</button>
+    <button type="submit"  >下載</button>
     </form>
   </body>
 </html>
